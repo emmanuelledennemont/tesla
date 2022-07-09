@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://i.redd.it/mmqupk5zv4s51.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: cover;
+    font-family:'Raleway', sans-serif;;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+    padding: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+    width: 59.25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    color: whitesmoke;
+    font-size: 50px;
+    padding: 0 25px;
+}
+.configuration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-tesla {
+    width: 90px;
+    height: 15%;
+    margin-left: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subtitle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fdfdfd;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.btn-grp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.black{
+    border: 4px solid #525252;
+}
+
+.blue{
+    border: 4px solid #e91c22;
+}
+
+.choice-one button{
+width: 600px;
+height: 60px;
+border-radius: 10px;
+background: #fdfdfd;
+font-size: 22px;
+font-weight: 900;
+}
+
+
+.choice-two button{
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    background: #fdfdfd;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+.buy button{
+    border:none;
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background: #e91c22;
+    color: #fdfdfd;
+    width: 300px;
+    height: 60px;
+}
+
+.configuration p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #fdfdfd;
+    padding: 0 35px
 }
